@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+.menu-1{
+    margin-left: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-1 a:hover{
+    background-color: white;
+    transition: height 0.5s;
+    position: relative;
+}
+
+.B-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.B-1 p{
+    width: 700px;
+    font-size: 20px;
+}
+
+.B-1 h1{
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+.link{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.link a:hover{
+    background-color: white;
+    transition: height 0.5s;
+    position: relative;
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+}
+
+.one li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+}
+
+.one :hover{
+    text-decoration: underline;
+    color: #0075c9;
+}
+
+.Right-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.one{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+#sub-menu{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+li:hover #sub-menu{
+    visibility: visible;
+}
+
+.B-2{
+    background-image: url(1663338150-4.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    margin-top: 190px;
+}
+
+.two{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 20px;
+    position: absolute;
+    top: -30px;
+    left: 300px;
+}
+
+.two a{
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+}
+
+.two a:hover{
+    background-color: #0075c9;
+    transition: height 0.5s;
+    position: relative;
+}
+
+.B-3{   
+    margin-top: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    
+}
+
+.four{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four :hover{
+    text-decoration: underline;
+    list-style: none;
+    color: #0075c9;
+    font-size: 18px;
+}
+
+.Five{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.B-4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(202, 221, 221);
+    margin-top: 60px;
+}
+
+.Five-sub{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+}
+
+.Five-sub img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Five-sub h3{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Five-sub p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Five-sub button {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Five-sub :nth-child(4){
+   width: 90px;
+   height: 35px;
+   color: #0075c9;
+}
+
+.Five-sub :nth-child(5){
+    width: 90px;
+    height: 35px;
+    color: #0075c9;
+ }
+ 
+ .Five :hover{
+    background-color: #0075c9;
+    color: white;
+ }
+
+ #Five-sub{
+    width: 200px;
+    height: 280px;
+    background-color: white;
+}
+
+#Five :hover{
+    background-color: #0075c9;
+    color: white;
+}
+
+
+.Six{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.Six p{
+    width: 83%;
+    font-size: 20px;
+    margin-left: 20px;
+    margin: 20px 50px;
+}
+
+.Six h1{
+    font-size: 50px;
+    margin-left: 20px;
+    margin: 20px 50px;
+}
+
+.Seven{
+    display: flex;
+    justify-content: space-evenly;
+    width:400px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.Seven-1{
+    width: 100px;
+    background-color: #0075c9;
+    color: white;
+    height: 70px;
+}
+
+.Seven-2{
+    width: 200px;
+    background-color: #0075c9;
+    color: white;
+    height: 70px;
+}
+
+ .Seven :hover{
+    background-color: #0075c9;
+    color: white;
+}
+
+.B-5{
+    
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.Eight-1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Eight-2{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.Eight-2 :hover{
+    text-decoration: underline;
+    list-style: none;
+    color: #0075c9;
+    font-size: 18px;
+}
+
+.Nine{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.B-6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 50vh;
+    background-color: #464e58;
+    margin-top: 50px;
+}
+
+.Nine-sub{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+}
+
+.Nine-sub img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Nine-sub h3{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Nine-sub p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Nine-sub button {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 50px;
+}
+
+.Nine-sub button :hover{
+    background-color: #0075c9;
+    color: white;
+}
+
+.Nine :hover{
+    background-color: #0075c9;
+    color: white;
+ }
+
+ hr{
+    margin-left: 120px;
+ }
+ 
+ nav{
+    display: flex;
+    justify-content: space-between;
+    color: #0075c9;
+    margin: 50px 50px;
+ }
+
+ .men-1{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .men-1 a{
+    padding: 10px;
+ }
+
+ .men-sub1{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .men-sub1 a{
+    padding: 10px;
+ }
+
+ .men-sub2{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .men-sub2 a{
+    padding: 10px;
+ }
+ 
+ .men-sub{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .men-sub a{
+    padding: 10px;
+ }
+
+
+ @media screen and (max-width:500px) {
+    .menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: grey;
+        visibility: hidden;
+    }
+
+    .Right-one{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        visibility: hidden;
+    }
+
+    .menu-1{
+        margin-left: 20px;
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        visibility: hidden;
+    }
+
+    .link{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 20px;
+        visibility: hidden;
+    }
+
+    .one{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 20px;
+        visibility: hidden;
+    }
+
+    .B-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+
+    .two{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        min-height: 20vh;
+        font-size: 20px;
+        font-weight: 20px;
+        position: absolute;
+        top: -30%;
+        left: 20%;
+    }
+
+    .B-3{
+    
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 80px;
+        margin: 50px 50px;
+    }
+    
+    .three {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .three h2{
+        width: 300px;
+        margin: 30px 50px;
+    }
+
+    .four{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;   
+    }
+
+    .Five{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .Five-sub{
+        width: 500px;
+        height: 250px;
+        background-color: white;
+    }
+ }
